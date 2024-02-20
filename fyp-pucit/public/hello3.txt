@@ -1,0 +1,15 @@
+
+
+find determinant of [[1,2],[3,4]]
+
+
+To find the determinant of the 2x2 matrix:
+
+[1  2]
+[3  4]
+
+The determinant is calculated as (ad - bc):
+
+det = (1 * 4) - (2 * 3) = 4 - 6 = -2
+
+So, the determinant of the given matrix is -2.

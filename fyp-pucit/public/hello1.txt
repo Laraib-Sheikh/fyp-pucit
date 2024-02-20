@@ -1,0 +1,45 @@
+use the cramer's rule method to solve following system of linear equations:
+2x-2y=4
+3x+2y=6
+Answer:
+Certainly! Let's solve the system of equations using Cramer's Rule for the given system:
+
+[2x - 2y = 4]
+[3x + 2y = 6]
+
+1. Write the augmented matrix:
+   
+   2  -2 |  4
+   3   2 |  6
+   
+
+2. Calculate the determinant (D):
+   
+   D = (2 * 2) - (-2 * 3) = 4 + 6 = 10
+   
+
+3. Replace the first column with the constants to get (D_x):
+   
+    4  -2
+    6   2
+   
+   
+   D_x = (4 * 2) - (-2 * 6) = 8 + 12 = 20
+   
+
+4. Replace the second column with the constants to get (D_y):
+   
+    2   4
+    3   6
+   
+   
+   D_y = (2 * 6) - (4 * 3) = 12 - 12 = 0
+   
+
+5. Find (x) and (y):
+   
+   x = D_x / D = 20 / 10 = 2
+   y = D_y / D = 0 / 10 = 0
+   
+
+So, the solution to the system of equations is (x = 2) and (y = 0), obtained by using Cramer's Rule.
